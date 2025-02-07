@@ -15,7 +15,7 @@ export const Footer = () => (
             </div>
             <div className="flex items-center justify-center gap-2">
               <Mail size={16} className="text-white" />
-              <span>info@amoesyecba.org.ar</span>
+              <span>info@gaucholab.com</span>
             </div>
             <div className="flex items-center justify-center gap-2">
               <MapPin size={16} className="text-white" />
@@ -27,19 +27,19 @@ export const Footer = () => (
         <h3 className="text-xl font-bold mb-2">AMOESYECBA</h3>
         <div className='justify-center items-center flex flex-col'>
           <ul>
-            <Link to="/about">
+            <Link to="/Gaucho-Lab/about">
               <li className="mb-1 hover:text-[#e4baa4]">- Nosotros</li>
             </Link>
-            <Link to="/benefits">
+            <Link to="/Gaucho-Lab/benefits">
               <li className="mb-1 hover:text-[#e4baa4]">- Beneficios</li>
             </Link>
-            <Link to="/subsidios">
+            <Link to="/Gaucho-Lab/subsidios">
               <li className="mb-1 hover:text-[#e4baa4]">- Subsidios</li>
             </Link>
-            <Link to="/services">
+            <Link to="/Gaucho-Lab/services">
               <li className="mb-1 hover:text-[#e4baa4]">- Servicios</li>
             </Link>
-            <Link to="/contact">
+            <Link to="/Gaucho-Lab/contact">
               <li className="mb-1 hover:text-[#e4baa4]">- Contacto</li>
             </Link>
           </ul>

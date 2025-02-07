@@ -6,17 +6,18 @@ import './index.css'
 import { Footer } from './Components/Footer'
 import { TermsAndConditions } from './Components/TermsAndConditions'
 
-function App() {
+const App = () => {
 
   return (
-    <>
+    <div className='flex-grow'>
+
     <Navbar />
     <Routes>
     <Route path='/Gaucho-Lab' element={<HomePage />}/>
     <Route path="/Gaucho-Lab/terminosycondiciones" element={<TermsAndConditions />} />
     </Routes>
     <Footer />
-    </>
+    </div>
   )
 }
 
