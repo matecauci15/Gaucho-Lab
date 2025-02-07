@@ -7,7 +7,7 @@ export const Footer = () => (
     <div className="container mx-auto px-4 max-w-screen-lg">
       <div className="grid md:grid-cols-3 gap-8 justify-items-center">
         <div className="text-center">
-          <h3 className="text-xl font-bold mb-4">Contacto</h3>
+          <h3 className=" bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent text-xl font-bold mb-4">Contacto</h3>
           <div className="space-y-4 text-white">
             <div className="flex items-center justify-center gap-2">
               <Phone size={16} className="text-white" />
@@ -19,28 +19,28 @@ export const Footer = () => (
             </div>
             <div className="flex items-center justify-center gap-2">
               <MapPin size={16} className="text-white" />
-              <span>Buenos Aires, Argentina</span>
+              <span>Rosario, Argentina</span>
             </div>
           </div>
         </div>
         <div className="">
-        <h3 className="text-xl font-bold mb-2">AMOESYECBA</h3>
+        <h3 className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent text-xl font-bold mb-2">Gaucho Lab</h3>
         <div className='justify-center items-center flex flex-col'>
           <ul>
             <Link to="/Gaucho-Lab/about">
-              <li className="mb-1 hover:text-[#e4baa4]">- Nosotros</li>
+              <li className="mb-1 hover:text-[#e4baa4]">- Home</li>
             </Link>
             <Link to="/Gaucho-Lab/benefits">
-              <li className="mb-1 hover:text-[#e4baa4]">- Beneficios</li>
+              <li className="mb-1 hover:text-[#e4baa4]">- Servicies</li>
             </Link>
             <Link to="/Gaucho-Lab/subsidios">
-              <li className="mb-1 hover:text-[#e4baa4]">- Subsidios</li>
+              <li className="mb-1 hover:text-[#e4baa4]">- Projects</li>
             </Link>
             <Link to="/Gaucho-Lab/services">
-              <li className="mb-1 hover:text-[#e4baa4]">- Servicios</li>
+              <li className="mb-1 hover:text-[#e4baa4]">- About</li>
             </Link>
             <Link to="/Gaucho-Lab/contact">
-              <li className="mb-1 hover:text-[#e4baa4]">- Contacto</li>
+              <li className="mb-1 hover:text-[#e4baa4]">- Contact</li>
             </Link>
           </ul>
         </div>
@@ -48,7 +48,7 @@ export const Footer = () => (
         <div className="text-center items-center flex flex-col">
           {" "}
           {/* Centra el contenido y los íconos */}
-          <h3 className="text-xl font-bold mb-4">Síguenos</h3>
+          <h3 className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent text-xl font-bold mb-4">Síguenos</h3>
           <div className="flex justify-center space-x-4">
             {" "}
             {/* Centra las redes sociales */}

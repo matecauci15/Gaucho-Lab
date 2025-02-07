@@ -4,9 +4,9 @@ export const TermsAndConditions: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-      <div className="max-w-4xl mx-auto p-20 mb-20 bg-white shadow-lg rounded-lg border border-gray-200 relative">
+      <div className="max-w-4xl mx-auto mt-20 p-8 mb-20 bg-white shadow-lg rounded-lg border border-gray-200 relative">
         <div 
-          className="flex justify-between items-center cursor-pointer border-b pb-4 mt-20" 
+          className="flex justify-between items-center cursor-pointer border-b pb-4 m-18" 
           onClick={() => setIsOpen(!isOpen)}
         >
           <h2 className="text-3xl font-bold text-gray-800">Privacy Policy</h2>
