@@ -60,7 +60,7 @@ export const TermsAndConditions: React.FC = () => {
             <p>If you have any questions, you can contact us:</p>
             <ul className="list-disc list-inside mt-4 space-y-2">
               <li>By email: info@gaucholab.com</li>
-              <li>By visiting our website: <a className="text-blue-600 hover:underline" href="https://matecauci15.github.io/Gaucho-Web/">Gaucho Web</a></li>
+              <li>By visiting our website: <a className="text-blue-600 hover:underline" href="https://matecauci15.github.io/Gaucho-Lab/">Gaucho Web</a></li>
               <li>By phone: 549 341 397 7076</li>
             </ul>
           </div>

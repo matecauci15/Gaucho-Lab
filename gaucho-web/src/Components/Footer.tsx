@@ -71,7 +71,7 @@ export const Footer = () => (
               <Instagram size={20} />
             </a>
           </div>
-      <Link to="/Gaucho-Lab/terminosycondiciones">
+            <Link to="/Gaucho-Lab/terminosycondiciones">
               <p className="mt-10 hover:text-[#e4baa4]">- Terminos y condiciones</p>
             </Link>
         </div>
